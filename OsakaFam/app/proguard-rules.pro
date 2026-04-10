@@ -1,0 +1,5 @@
+-keep class com.osakafam.app.network.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
+-dontwarn okhttp3.**
+-dontwarn okio.**
